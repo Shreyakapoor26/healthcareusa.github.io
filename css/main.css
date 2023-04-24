@@ -272,7 +272,7 @@ figure.effect-sadie:hover a {
 /*..............About............................*/
 .About{
 	background-image: url('../otherFileFolder/images/black.jpg');
-	background-size: 180%; /* increase the width of the background image */
+	background-size: 100%; /* increase the width of the background image */
 	background-position: center;
 	background-color: #1f2933;
 	color: #fff;
