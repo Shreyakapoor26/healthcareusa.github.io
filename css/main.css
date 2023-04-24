@@ -297,10 +297,6 @@ box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 border-radius: 10px;
 }
 
-#vis {
-  margin: auto;
-}
-
 .blog-title {
 font-size: 2em;
 color: #fff; /* set the title color to white */
