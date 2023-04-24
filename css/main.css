@@ -298,10 +298,7 @@ border-radius: 10px;
 }
 
 #vis {
-  position: absolute; /* make the element position absolute */
-  top: 50%; /* set the top position to 50% */
-  left: 50%; /* set the left position to 50% */
-  transform: translate(-50%, -50%); /* translate the element back by 50% of its own width and height */
+  margin: auto;
 }
 
 .blog-title {
