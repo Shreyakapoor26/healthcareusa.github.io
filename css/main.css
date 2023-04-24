@@ -286,7 +286,8 @@ figure.effect-sadie:hover a {
 }
 
 .blog-post {
-	max-width: 160%;
+	max-width: 100%; /* set max-width to 100% */
+	width: 1200px; /* set width to a fixed value */
 	margin: 0 auto;
 	text-align: justify;
 	padding: 10px;
