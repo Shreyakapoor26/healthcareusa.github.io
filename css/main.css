@@ -284,6 +284,31 @@ figure.effect-sadie:hover a {
 	justify-content: center;
 }
 
+.blog-post {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: justify;
+	padding: 50px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+
+.blog-title {
+	font-size: 2.5em;
+	color: #1f2933;
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.blog-text {
+	font-size: 1.5em;
+	color: #1f2933;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
 .link {
 	outline: none;
 	text-decoration: none;
@@ -321,23 +346,9 @@ figure.effect-sadie:hover a {
 }
 
 .link--kukuri:hover::after {
-	transform: translate3d(100%,0,0);
+	transform: translate3d(0,0,0);
 }
 
-.link--kukuri::before {
-	content: attr(data-letters);
-	position: absolute;
-	z-index: 2;
-	overflow: hidden;
-	color: #f75151;
-	white-space: nowrap;
-	width: 0%;
-	transition: width 0.4s 0.3s;
-}
-
-.link--kukuri:hover::before {
-	width: 100%;
-}
 
 /*................Contact..........................*/
 
