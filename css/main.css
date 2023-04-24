@@ -271,7 +271,7 @@ figure.effect-sadie:hover a {
 /*..............About............................*/
 .About{
 	background-image: url('../otherFileFolder/images/black.jpg');
-	background-size: 120%; /* increase the width of the background image */
+	background-size: 180%; /* increase the width of the background image */
 	background-position: center;
 	background-color: #1f2933;
 	color: #fff;
@@ -286,10 +286,10 @@ figure.effect-sadie:hover a {
 }
 
 .blog-post {
-	max-width: 90%;
+	max-width: 160%;
 	margin: 0 auto;
 	text-align: justify;
-	padding: 20px;
+	padding: 10px;
 	background-color: #fff;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 	border-radius: 10px;
