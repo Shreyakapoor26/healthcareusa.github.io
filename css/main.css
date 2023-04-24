@@ -270,6 +270,9 @@ figure.effect-sadie:hover a {
 /*..............opensource............................*/
 /*..............About............................*/
 .About{
+	background-image: url('../otherFileFolder/images/black.jpg');
+	background-size: cover;
+	background-position: center;
 	background-color: #1f2933;
 	color:#00b2ff;
 	font-size: 1.5em;
