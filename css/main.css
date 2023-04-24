@@ -268,23 +268,24 @@ figure.effect-sadie:hover a {
 
 }
 /*..............opensource............................*/
-.opensource{
+/*..............About............................*/
+.About{
 	background-color: #1f2933;
 	color:#00b2ff;
-	font-size: 2em;
-	font-family: 'coda';
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .link {
 	outline: none;
 	text-decoration: none;
 	position: relative;
-	font-size: 2em;
+	font-size: 1.5em;
 	line-height: 1;
 	color: #00b2ff;
 	display: inline-block;
-
 }
+
 .link--kukuri {
 	text-transform: uppercase;
 	font-weight: 900;
@@ -295,7 +296,6 @@ figure.effect-sadie:hover a {
 
 .link--kukuri:hover {
 	color: #b2ff00;
-
 }
 
 .link--kukuri::after {
@@ -304,7 +304,6 @@ figure.effect-sadie:hover a {
 	height: 16px;
 	width: 100%;
 	top: 50%;
-	/*margin-top: -8px;*/
 	margin-top: -8px;
 	right: 0;
 	background: #1f2933;
@@ -331,6 +330,7 @@ figure.effect-sadie:hover a {
 .link--kukuri:hover::before {
 	width: 100%;
 }
+
 /*................Contact..........................*/
 
 .contact{
