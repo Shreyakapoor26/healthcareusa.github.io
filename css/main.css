@@ -17,7 +17,7 @@ body{
 
 #highlight {
     background: #fff200;
-		opacity: .4;
+		opacity: .2;
     padding: 3px 5px;
     margin: -3px -5px;
     line-height: 1.7;
@@ -49,8 +49,8 @@ body{
 }
 .section-header{
 	/*text-align: center;*/
-	font-size: 40px;
-	margin-bottom: 30px;
+	font-size: 30px;
+	margin-bottom: 20px;
 }.header{
 	display: none;
 }
@@ -106,6 +106,7 @@ body{
 	/*text-align: center;*/
 	font-size: 40px;
 	margin-bottom: 30px;
+	color: black; 
 }
 .project-tile{
 	border: 1px solid rgb(226, 226, 226);;
@@ -271,7 +272,7 @@ figure.effect-sadie:hover a {
 /*..............About............................*/
 .About{
 	background-image: url('../otherFileFolder/images/black.jpg');
-	background-size: 180%; /* increase the width of the background image */
+	background-size: 180%;
 	background-position: center;
 	background-color: #1f2933;
 	color: #fff;
@@ -282,41 +283,37 @@ figure.effect-sadie:hover a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh; /* set height to 100% of viewport height */
+	height: 40vh; / set height to 100% of viewport height */
 }
 
 .blog-post {
-	max-width: 100%; /* set max-width to 100% */
-	width: 1200px; /* set width to a fixed value */
+	width: 100%;
 	margin: 0 auto;
 	text-align: justify;
 	padding: 10px;
-	background-color: #fff;
+	background-color: #1f2933; / set the background color to match the About section */
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 	border-radius: 10px;
 }
 
 #vis {
-	margin: auto; /* set margin to auto */
+margin: auto; /* set margin to auto */
 }
 
 .blog-title {
-	font-size: 2.5em;
-	color: #1f2933;
-	text-align: center;
-	margin-bottom: 30px;
-	font-weight: bold;
+font-size: 2.5em;
+color: #fff; /* set the title color to white */
+text-align: center;
+margin-bottom: 30px;
+font-weight: bold;
 }
 
 .blog-text {
-	font-size: 1.5em;
-	color: #1f2933;
-	line-height: 1.5;
-	margin-bottom: 20px;
+font-size: 1.5em;
+color: #fff; /* set the text color to white */
+line-height: 1.5;
+margin-bottom: 20px;
 }
-
-
-
 /*................Contact..........................*/
 
 .contact{
