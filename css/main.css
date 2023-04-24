@@ -271,31 +271,37 @@ figure.effect-sadie:hover a {
 /*..............opensource............................*/
 /*..............About............................*/
 .About{
-	background-image: url('../otherFileFolder/images/black.jpg');
-	background-size: 180%;
-	background-position: center;
-	background-color: #1f2933;
-	color: #fff;
-	font-size: 1.5em;
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 40vh; / set height to 100% of viewport height */
+background-image: url('../otherFileFolder/images/black.jpg');
+background-size: 180%;
+background-position: center;
+background-color: #1f2933;
+color: #fff;
+font-size: 1.5em;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 40vh; /* set height to 100% of viewport height */
 }
 
 .blog-post {
-	width: 200%;
-	padding: 10px;
-	background-color: #1f2933;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-	border-radius: 10px;
+max-width: 1200px; /* set max-width to a reasonable value */
+width: 100%;
+margin: 0 auto;
+text-align: justify;
+padding: 10px;
+background-color: #fff;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+border-radius: 10px;
 }
 
 #vis {
-margin: auto; /* set margin to auto */
+  position: absolute; /* make the element position absolute */
+  top: 50%; /* set the top position to 50% */
+  left: 50%; /* set the left position to 50% */
+  transform: translate(-50%, -50%); /* translate the element back by 50% of its own width and height */
 }
 
 .blog-title {
