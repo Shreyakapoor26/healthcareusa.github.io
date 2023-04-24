@@ -271,45 +271,45 @@ figure.effect-sadie:hover a {
 /*..............opensource............................*/
 /*..............About............................*/
 .About{
-background-image: url('../otherFileFolder/images/black.jpg');
-background-size: 180%;
-background-position: center;
-background-color: #1f2933;
-color: #fff;
-font-size: 1.5em;
-font-family: 'Montserrat', sans-serif;
-text-align: center;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-height: 40vh; /* set height to 100% of viewport height */
+	background-image: url('../otherFileFolder/images/black.jpg');
+	background-size: 180%; /* increase the width of the background image */
+	background-position: center;
+	background-color: #1f2933;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; /* set height to 100% of viewport height */
 }
 
 .blog-post {
-max-width: 1200px; /* set max-width to a reasonable value */
-width: 100%;
-margin: 0 auto;
-text-align: justify;
-padding: 10px;
-background-color: #fff;
-box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-border-radius: 10px;
+	max-width: 100%; /* set max-width to 100% */
+	width: 1200px; /* set width to a fixed value */
+	margin: 0 auto;
+	text-align: justify;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+	border-radius: 10px;
 }
 
 .blog-title {
-font-size: 2em;
-color: #fff; /* set the title color to white */
-text-align: center;
-margin-bottom: 30px;
-font-weight: bold;
+	font-size: 2.5em;
+	color: #1f2933;
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: bold;
 }
 
 .blog-text {
-font-size: 1em;
-color: #fff; /* set the text color to white */
-line-height: 1.5;
-margin-bottom: 10px;
+	font-size: 1.5em;
+	color: #1f2933;
+	line-height: 1.5;
+	margin-bottom: 20px;
 }
 /*................Contact..........................*/
 
