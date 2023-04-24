@@ -274,9 +274,14 @@ figure.effect-sadie:hover a {
 	background-size: cover;
 	background-position: center;
 	background-color: #1f2933;
-	color:#00b2ff;
+	color: #fff;
 	font-size: 1.5em;
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .link {
