@@ -269,57 +269,50 @@ figure.effect-sadie:hover a {
 }
 /*..............opensource............................*/
 /*..............About............................*/
-.About {
-    background-image: url('../otherFileFolder/images/black.jpg');
-    background-size: cover;
-    background-position: center;
-    background-color: #1f2933;
-    color: #fff;
-    font-size: 1.5em;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+.About{
+	background-image: url('../otherFileFolder/images/black.jpg');
+	background-size: cover;
+	background-position: center;
+	background-color: #1f2933;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; /* set height to 100% of viewport height */
 }
 
 .blog-post {
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: justify;
-    padding: 50px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-    border-radius: 10px;
+	max-width: 90%; /* set max-width to 90% */
+	margin: 0 auto;
+	text-align: justify;
+	padding: 50px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+
+#vis {
+	margin: auto; /* set margin to auto */
 }
 
 .blog-title {
-    font-size: 2.5em;
-    color: #1f2933;
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: bold;
+	font-size: 2.5em;
+	color: #1f2933;
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: bold;
 }
 
 .blog-text {
-    font-size: 1.5em;
-    color: #1f2933;
-    line-height: 1.5;
-    margin-bottom: 20px;
+	font-size: 1.5em;
+	color: #1f2933;
+	line-height: 1.5;
+	margin-bottom: 20px;
 }
-
-.link {
-    outline: none;
-    text-decoration: none;
-    position: relative;
-    font-size: 1.5em;
-    line-height: 1;
-    color: #00b2ff;
-    display: inline-block;
-}
-
 
 
 /*................Contact..........................*/
